@@ -1,0 +1,11 @@
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+      "email": "eswarvinayddven2222222222222222222222222eeka3333tesh26@gmail.com"
+}
+
+
+####
+
+GET http://localhost:4000/
