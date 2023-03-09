@@ -38,3 +38,9 @@ app.get("/", async (request, response) => {
 
  
 });
+
+
+app.get("/hello", (request, response) => {
+  response.send("Hello World!");
+});
+app.listen(3000);
