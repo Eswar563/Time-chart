@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const User = require('../myapp/models/User');
+const User = require('../models/User');
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/hrm-db');
 app.use(express.json())
